@@ -175,7 +175,6 @@ Then open the notebooks in order:
   - **Precision**
   - **Recall**
   - **F1-score**
-  - **Macro, micro, and weighted averages**
 - Visualizing the **confusion matrix**
 - Plotting **ROC curves** and computing **AUC**
 - Plotting **Precision-Recall curves** and computing **Average Precision**
