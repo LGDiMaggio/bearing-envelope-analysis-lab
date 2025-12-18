@@ -238,24 +238,6 @@ After completing the notebooks, students can explore:
 
 ---
 
-## References
-
-### Envelope Analysis and Spectral Kurtosis
-- Antoni, J. (2006). *The spectral kurtosis: a useful tool for characterising non-stationary signals.* Mechanical Systems and Signal Processing, 20(2), 282-307.
-- Antoni, J. (2007). *Fast computation of the kurtogram for the detection of transient faults.* Mechanical Systems and Signal Processing, 21(1), 108-124.
-- Randall, R. B., & Antoni, J. (2011). *Rolling element bearing diagnostics—A tutorial.* Mechanical Systems and Signal Processing, 25(2), 485-520.
-
-### Classification and Evaluation Metrics
-- Fawcett, T. (2006). *An introduction to ROC analysis.* Pattern Recognition Letters, 27(8), 861-874.
-- Saito, T., & Rehmsmeier, M. (2015). *The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets.* PloS one, 10(3), e0118432.
-- He, H., & Garcia, E. A. (2009). *Learning from imbalanced data.* IEEE Transactions on Knowledge and Data Engineering, 21(9), 1263-1284.
-
-### Bearing Fault Diagnosis
-- McFadden, P. D., & Smith, J. D. (1984). *Model for the vibration produced by a single point defect in a rolling element bearing.* Journal of Sound and Vibration, 96(1), 69-82.
-- Lei, Y., et al. (2016). *Applications of machine learning to machine fault diagnosis: A review and roadmap.* Mechanical Systems and Signal Processing, 138, 106587.
-
----
-
 ## License
 
 This project is provided for educational purposes. Please check with your institution regarding data sharing and usage policies.

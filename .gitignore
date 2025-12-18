@@ -44,10 +44,13 @@ env/
 .DS_Store
 Thumbs.db
 
-# Data - keep only sample files, exclude large original files
+# Data - keep sample files, exclude large original files
 Data/
 data/*_124.8kN_0kN.mat
 *.zip
+
+# Include sample .mat files in data folder
+!data/*_sample.mat
 
 # Debug and test scripts
 debug_*.py
