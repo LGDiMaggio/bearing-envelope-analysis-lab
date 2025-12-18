@@ -103,7 +103,7 @@ Each `.mat` file in the `data/` folder contains a **2-second snippet** of vibrat
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-institution/bearing-envelope-analysis-lab.git
+   git clone https://github.com/LGDiMaggio/bearing-envelope-analysis-lab.git
    cd bearing-envelope-analysis-lab
    ```
 
