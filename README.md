@@ -189,55 +189,6 @@ Then open the notebooks in order:
 
 ---
 
-## Instructor Notes
-
-### Data Preparation Script
-
-The `prepare_public_dataset.py` script is for **instructor use only**. It:
-
-1. Reads the original `.mat` files from a private folder (`Data/`)
-2. Extracts the first 2 seconds of acceleration (sensor 4) and tacho rpm data
-3. Saves simplified `.mat` files in the `data/` folder for student use
-
-**To use the script**:
-
-1. Update `RAW_DATA_PATH` in the script to point to your private data folder
-2. Run: `python prepare_public_dataset.py`
-3. The script will create the `data/` folder with 8 `.mat` files (~1.6 MB each)
-4. These files can be committed to GitHub for student use
-
-**Requirements**: `numpy`, `scipy`
-
-**Note**: The original large `.mat` files (~50 MB each) should **not** be committed to the repository. They are excluded via `.gitignore`.
-
----
-
-## Extensions and Further Work
-
-After completing the notebooks, students can explore:
-
-### Advanced Signal Processing
-- Implement spectral kurtosis and the kurtogram algorithm
-- Explore wavelet transforms for time-frequency analysis
-- Apply empirical mode decomposition (EMD) or variational mode decomposition (VMD)
-
-### Advanced Classification
-- Experiment with other classifiers (SVM, Neural Networks, Gradient Boosting)
-- Add more features (envelope spectrum peaks, spectral features, etc.)
-- Apply feature selection and dimensionality reduction (PCA, feature importance)
-
-### Handling Class Imbalance
-- Use SMOTE (Synthetic Minority Over-sampling Technique)
-- Apply class weighting in classifiers
-- Explore ensemble methods for imbalanced data
-
-### Real-Time Monitoring
-- Implement online/streaming classification
-- Develop a simple dashboard for real-time fault detection
-- Explore anomaly detection for unsupervised fault detection
-
----
-
 ## License
 
 This project is provided for educational purposes. Please check with your institution regarding data sharing and usage policies.
