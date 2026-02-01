@@ -44,13 +44,15 @@
 **Start here**: Open `Notebook1_BearingEnvelopeAnalysis.ipynb`
 
 ### Notebook 2: Fault Classification Metrics (~30 min)
-- Build feature dataset from multiple samples
-- Train Random Forest classifier
+- Understand binary classification (Healthy vs Faulty)
+- Simulate realistic diagnostic scenarios
 - Evaluate with confusion matrix
 - Analyze ROC and Precision-Recall curves
 - Understand class imbalance effects
 
 **Continue with**: Open `Notebook2_BearingFaultMetrics.ipynb`
+
+**Note**: This notebook uses simulated scenarios to teach evaluation metrics, not actual model training.
 
 ## Data Files
 
@@ -81,10 +83,10 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ## Next Steps
 
 After completing both notebooks:
-- Explore the "Extensions" section in README.md
-- Try implementing spectral kurtosis
-- Experiment with other classifiers (SVM, Neural Networks)
-- Apply different feature extraction techniques
+- Review the key concepts in README.md
+- Try implementing spectral kurtosis (advanced topic from Notebook 1)
+- Explore how to apply these techniques to your own vibration data
+- Consider how different threshold settings affect diagnostic performance
 
 ## Need Help?
 

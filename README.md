@@ -20,10 +20,10 @@ By completing this lab, you will be able to:
 2. **Apply envelope analysis** using the Hilbert transform to detect bearing faults
 3. **Use band-pass filtering** to enhance fault detection in vibration signals
 4. **Compute time-domain features** (RMS, peak, kurtosis) for fault diagnosis
-5. **Train and evaluate classifiers** for multi-class bearing fault detection
+5. **Understand binary classification** for bearing fault detection (Healthy vs Faulty)
 6. **Interpret classification metrics** (accuracy, precision, recall, F1-score)
-7. **Analyze confusion matrices** to diagnose classifier weaknesses
-8. **Use ROC and Precision-Recall curves** to evaluate performance
+7. **Analyze confusion matrices** to diagnose classifier performance
+8. **Use ROC and Precision-Recall curves** to evaluate diagnostic systems
 9. **Understand the impact of class imbalance** on model evaluation
 
 ---
@@ -168,23 +168,27 @@ Then open the notebooks in order:
 
 **Topics covered**:
 
-- Building a feature dataset from vibration signal segments
-- Training a **Random Forest classifier** for multi-class fault detection
+- Understanding binary classification for bearing diagnostics (Healthy vs Faulty)
+- Simulating realistic diagnostic scenarios with different error patterns
 - Computing and interpreting classification metrics:
   - **Accuracy**
   - **Precision**
   - **Recall**
   - **F1-score**
-- Visualizing the **confusion matrix**
+- Visualizing the **confusion matrix** for binary classification
+- Understanding **decision thresholds** and their impact on performance
 - Plotting **ROC curves** and computing **AUC**
 - Plotting **Precision-Recall curves** and computing **Average Precision**
 - Understanding the impact of **class imbalance** on evaluation metrics
 
 **Key takeaways**:
-- Accuracy alone is insufficient, especially with imbalanced datasets
+- Accuracy alone is misleading, especially with imbalanced datasets
 - Precision and recall provide insight into false positives and false negatives
+- For safety-critical applications, prioritize **recall** (catch all faults)
 - PR curves are more informative than ROC curves for imbalanced problems
-- Always examine the confusion matrix to diagnose model weaknesses
+- Always examine the confusion matrix to diagnose system weaknesses
+
+**Note**: This notebook uses **simulated scenarios** to teach metrics concepts, not actual model training. It focuses on understanding how to evaluate diagnostic systems.
 
 ---
 
