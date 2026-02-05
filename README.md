@@ -106,60 +106,48 @@ Each `.mat` file in the `data/` folder contains a **2-second snippet** of vibrat
 - Jupyter Notebook or JupyterLab
 - Git (for cloning the repository)
 
-### Installing Git (if not already installed)
-
-If you don't have Git installed on your system, follow these steps:
-
-**Windows**:
-1. Download Git from [git-scm.com](https://git-scm.com/download/win)
-2. Run the installer and follow the setup wizard (default options work fine)
-3. Verify installation by opening a terminal and typing:
-   ```bash
-   git --version
-   ```
-
-**macOS**:
-- Option 1: Install via Homebrew:
-  ```bash
-  brew install git
-  ```
-- Option 2: Download from [git-scm.com](https://git-scm.com/download/mac)
-- Option 3: Install Xcode Command Line Tools:
-  ```bash
-  xcode-select --install
-  ```
-
-**Linux** (Debian/Ubuntu):
-```bash
-sudo apt-get update
-sudo apt-get install git
-```
-
-**Linux** (Fedora/RHEL):
-```bash
-sudo dnf install git
-```
-
-After installation, configure your Git identity (replace with your information):
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
-```
-
 ### Quick Start
 
-1. **Clone the repository**:
+1. **Install Git** (if not already installed):
+   
+   **Windows**:
+   - Download Git from [git-scm.com](https://git-scm.com/download/win)
+   - Run the installer and follow the setup wizard (default options work fine)
+   - Verify installation: `git --version`
+
+   **macOS**:
+   - Install via Homebrew: `brew install git`
+   - Or download from [git-scm.com](https://git-scm.com/download/mac)
+   - Or install Xcode Command Line Tools: `xcode-select --install`
+
+   **Linux** (Debian/Ubuntu):
+   ```bash
+   sudo apt-get update && sudo apt-get install git
+   ```
+
+   **Linux** (Fedora/RHEL):
+   ```bash
+   sudo dnf install git
+   ```
+
+   After installation, configure your Git identity:
+   ```bash
+   git config --global user.name "Your Name"
+   git config --global user.email "your.email@example.com"
+   ```
+
+2. **Clone the repository**:
    ```bash
    git clone https://github.com/LGDiMaggio/bearing-envelope-analysis-lab.git
    cd bearing-envelope-analysis-lab
    ```
 
-2. **Create a virtual environment** (recommended):
+3. **Create a virtual environment** (recommended):
    ```bash
    python -m venv venv
    ```
 
-3. **Activate the virtual environment**:
+4. **Activate the virtual environment**:
    - Windows:
      ```bash
      venv\Scripts\activate
@@ -169,12 +157,12 @@ git config --global user.email "your.email@example.com"
      source venv/bin/activate
      ```
 
-4. **Install dependencies**:
+5. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-5. **Launch Jupyter**:
+6. **Launch Jupyter**:
    ```bash
    jupyter notebook
    ```
