@@ -50,6 +50,12 @@ By completing this lab, you will be able to:
 
 ---
 
+## Bearing Diagnostics Overview
+
+![Bearing Diagnostics](images/Bearing_diagnostics.png)
+
+---
+
 ## Dataset Description
 
 ### Test Rig Conditions
