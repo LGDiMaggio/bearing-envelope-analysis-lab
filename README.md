@@ -33,8 +33,8 @@ By completing this lab, you will be able to:
 ```
 .
 ├── README.md                                  # This file
+├── QUICKSTART.md                               # Quick start guide for students
 ├── requirements.txt                            # Python dependencies
-├── prepare_public_dataset.py                   # Data preparation script (instructor only)
 ├── data/                                       # Public dataset (2-second samples)
 │   ├── H_353rpm_sample.mat
 │   ├── H_877rpm_sample.mat
@@ -228,6 +228,8 @@ Then open the notebooks in order:
 ---
 
 ## License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 This project is provided for educational purposes. Please check with your institution regarding data sharing and usage policies.
 
